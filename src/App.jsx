@@ -11,6 +11,8 @@ import InfoOne from './components/InfoOne'
 import InfoTwo from './components/InfoTwo'
 import CTA from './components/CTA'
 import Testimonials from './components/Testimonials'
+import GetInTouch from './components/GetInTouch'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,8 @@ function App() {
       <InfoTwo />
       <CTA />
       <Testimonials />
+      <GetInTouch />
+      <Footer />
     </>
   )
 }
